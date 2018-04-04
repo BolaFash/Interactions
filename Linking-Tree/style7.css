@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+    overflow: scroll;
+    width: 95%
+}
+
+.you{
+    color: white;
+    font-family: 'Alfa Slab One', 'serif';
+    font-size: 100px;
+    margin: 0;
+    margin-left: 10px;
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.you-1{
+    color: black;
+    font-family: 'Alfa Slab One', 'serif';
+    font-size: 70px;
+    margin: 0;
+    margin-left: 10px;
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+
+.right{
+    color: white;
+    font-family: 'Alfa Slab One', 'serif';
+    font-size: 100px;
+    margin: 0;
+    margin-right: 10px;
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: right;
+    bottom: 0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #C00000;
+}
+
+

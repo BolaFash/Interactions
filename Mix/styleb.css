@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: black;
+  background-size: cover;
+  overflow: hidden;
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.blend-multiply {
+    mix-blend-mode: multiply;
+}
+
+.wrapper{
+  position: absolute;
+    top: 0;
+    left: 0;
+      width: 100%;
+    height: 100%;
+  background-color: #f2f2f2;
+  overflow: hidden;
+}
+
+.wrapper ul{
+  list-style: none;
+      margin: 0;
+    padding: 0;
+      display: block;
+      color: #27282e;
+}
+
+audio{
+    position: fixed;
+    top:100%; right:-100%; left:-100%; bottom:-100%;
+    margin:auto;
+    z-index:0;
+}
+

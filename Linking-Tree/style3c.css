@@ -1,0 +1,12 @@
+.black-box{
+    background-color: black;
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50% auto;
+    transform: translate(-50%, -50%)
+}

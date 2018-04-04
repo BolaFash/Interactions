@@ -1,0 +1,39 @@
+body{
+ height: 50%;
+    overflow: scroll;
+}
+
+
+.box{
+     width: 175px;
+    height: 175px;
+    background-color: black;
+     position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    overflow: visible;
+    margin-top: 0px;    
+}
+
+.box2{
+     width: 390px;
+    height: 290px;
+    background-color: transparent;
+     position: absolute;
+    border: white solid 7px;
+    left: 270px;
+    top:90px;
+}
+
+.box3{
+     width: 800px;
+    height: 600px;
+    background-color: transparent;
+     position: absolute;
+    border: white solid 7px;
+    margin-left: 47%;
+    top: 45%;
+    
+}

@@ -1,0 +1,55 @@
+.text{
+font-family:"Courier New", "Courier", "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+font-weight: 100;
+font-size: 12px;
+text-align: left;
+position: fixed;
+bottom: 0;
+width: 120%;
+    overflow-x: scroll;
+}
+
+.twelve{
+    font-family:"Courier New", "Courier", "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+font-weight: 100;
+font-size: 8px;
+width: 100%;
+margin: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.cursor{
+    width: 1px;
+    height: 16px;
+    background-color: black;
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-duration:1s;
+    margin-left: 1.5px;
+}
+
+@keyframes blink{
+  0% { opacity: 1.0;}
+  50% { opacity: 0.0;}
+  100% { opacity: 1.0;}
+}
+
+a{
+color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+
+a:visited {
+    color: red;
+}

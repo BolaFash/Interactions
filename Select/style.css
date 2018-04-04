@@ -1,0 +1,43 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+html,body{
+	background:black;
+}
+
+img{
+	position: relative;
+	float:left;
+	width:20%;
+	height:20vw;
+}
+
+h1{
+	width: 50%;
+	text-align: center;
+	margin:35px auto;
+	padding:14px;
+	color:red;
+	background:yellow;
+	font-family: helvetica;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+select{
+	font-size:12px;
+	margin:14px;
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    overflow: visible;
+    margin-top: 0px;
+    background-color:floralwhite;
+    border: none;
+    border-radius: 0%;
+}
+
+
+

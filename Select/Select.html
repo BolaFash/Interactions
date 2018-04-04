@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<script src="../_scripts/jquery.js"></script>
+	<script src="scripts.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<title>Select</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <script>
+    
+        $(function(){
+
+ $("select").on("change",function(){
+
+  $("img").hide();
+  $("."+this.value).show();
+
+ });
+
+});
+    </script>
+</head>
+<body>
+    
+    
+    <div classs="images">
+    <img class="all sloshed" src="IMG_0039.jpg">
+	<img class="all flying" src="IMG_0023.jpg">
+        	<img class="all flying" src="IMG_0033.jpg">
+
+	<img class="all flying" src="IMG_0024.jpg">
+	<img class="all sober" src="IMG_0025.jpg">
+            <img class="all flying" src="IMG_0034.jpg">
+
+	<img class="all sober" src="IMG_0026.jpg">
+	<img class="all sloshed" src="IMG_0027.jpg">
+        	<img class="all flying" src="IMG_0032.jpg">
+
+	<img class="all sloshed" src="IMG_0028.jpg">
+	<img class="all flying" src="IMG_0029.jpg">
+	<img class="all sloshed" src="IMG_0030.jpg">
+	<img class="all sloshed" src="IMG_0031.jpg">
+	<img class="all flying" src="IMG_0035.jpg">
+	<img class="all sloshed" src="IMG_0038.jpg">
+</div>
+    
+     <select>
+        <option value="all">All</option>
+		<option value="sloshed">Sloshed</option>
+		<option value="flying">Flying</option>
+		<option value="sober">None</option>
+	</select>
+    
+    </body>
+</html>

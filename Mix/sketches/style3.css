@@ -1,0 +1,45 @@
+
+body {
+  overflow: hidden;
+   animation: color-fade 10s alternate;
+   animation-fill-mode: both;
+}
+
+@keyframes color-fade {
+  0% { background: 	#FFFFFF; }
+5% { background: 	#F8F8F8; }
+10% { background: 	#F5F5F5; }
+15% { background: 	#F0F0F0; }
+20% { background: 	#E8E8E8; }
+25% { background: 	#E0E0E0; }
+
+ 30% { background: 	#D8D8D8; }
+35% { background: 	#D3D3D3; }
+40% { background: 	#D0D0D0; }
+45% { background: 	#C8C8C8; }
+50% { background: 	#C0C0C0; }
+55% { background: 	#B8B8B8; }
+
+60% { background: 	#A9A9A9; }
+65% { background: 	#A0A0A0; }
+70% { background: 	#989898; }
+75% { background: 	#909090; }
+80% { background: 	#888888; }
+85% { background: 	#787878; }
+
+87% { background: 	#696969; }
+88% { background: 	#585858; }
+89% { background: #484848; }
+90% { background: #404040; }
+
+91% { background: 	#383838; }
+92% { background: 		#303030; }
+93% { background: 	#282828; }
+94% { background: 	#202020; }
+95% { background: 	#181818; }
+96% { background: 		#101010; }
+
+98% { background: 		#080808; }
+100% { background: 		#000000; }
+
+}

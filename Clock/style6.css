@@ -1,0 +1,63 @@
+body{
+	overflow: hidden;
+}
+
+.second{
+position:absolute;
+  width:0;
+  height:600px;
+ margin-top: -1%;
+ margin-left:-1%;
+  background-color: black;
+  animation: load 1s linear infinite;
+  display: block;
+  float: left;
+}
+
+.minute{
+position:absolute;
+  height:20px;
+ margin-top: 600px;
+ margin-left:-1%;
+  background-color: black;
+  display: block;
+  float: left;
+   animation: load 60s linear infinite;
+}
+
+.hour{
+position:relative;
+  height:3px;
+ margin-top: 660px;
+ margin-left:-0.7%;
+  background-color: #DB0606;
+  display: block;
+  float: left;
+   animation: loadh 3600s linear infinite;
+  
+}
+
+margin-top: 900px;
+
+}
+@keyframes load {
+	0% { width:0%; }
+  100% { width:101%; }
+}
+
+@-webkit-keyframes load {
+	0% { width:0; }
+  100% { width:101%; }
+}
+
+@keyframes loadh {
+	0% { width:0.005%; }
+  100% { width:101%; }
+}
+
+@-webkit-keyframes loadh {
+	0% { width:0.005; }
+  100% { width:101%; }
+}
+
+

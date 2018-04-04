@@ -1,0 +1,36 @@
+
+.black{
+  height: 110%;
+  background:linear-gradient(
+    to right,
+    black 0%,
+    black 80%,
+    white 80%,
+    white 100%);
+    margin-left: -10px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.text{
+    font-family:"Courier New", "Courier", "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+font-weight: 100;
+font-size: 12px;
+text-align: left;
+margin-left: 72.6%;
+position: absolute;
+bottom: 50%;
+width: 100%;
+    color: black;
+    display: inline-block;
+}
+
+.white{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin-left: 1%;
+}

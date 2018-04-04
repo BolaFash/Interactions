@@ -1,0 +1,26 @@
+
+p{
+    font-size: 370px;
+    font-family:'Alfa Slab One','Courier New', 'serif';
+    float: left;
+    width: 860%;
+    height: 50%;
+color: black;
+margin-left:-15px;
+    margin-top: 10%;
+    transform: scaleY(2); 
+    transform-origin: left;
+float: left;
+cursor: vertical-text;
+bottom: 0;
+    border-bottom: 150px solid black;
+    
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: red;
+}

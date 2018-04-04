@@ -1,0 +1,49 @@
+body{
+	overflow: scroll;
+	background-color: white;
+}
+
+
+.box{
+	width: 200px;
+    height: 50px;
+    background-color: transparent;
+    border: red;
+    z-index: +200;
+}
+
+.name{
+	font-family: 'Oswald', sans-serif;
+	font-size: 50px;
+	font-weight: 500;
+	 margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+	text-shadow: -0px -0px 0px #f1f1f1, 0px 1.2px 0px #f2f2f2;
+	color: #ffffff;
+	position: absolute;
+}
+
+a{
+    text-decoration: none;
+    	color: #ffffff;
+}
+
+a:hover{
+   text-decoration:line-through;
+    text-decoration-color: #e30808;
+}
+
+a:active{
+   text-decoration:line-through;
+    text-decoration-color: #e30808;
+}
+
+a:visited{
+   text-decoration:line-through;
+    text-decoration-color: #e30808;
+}
+

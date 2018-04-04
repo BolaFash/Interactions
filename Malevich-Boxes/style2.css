@@ -1,0 +1,27 @@
+body{
+ height: 100%;
+    overflow: scroll;
+}
+
+
+.box{
+     width: 175px;
+    height: 175px;
+    background-color: black;
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    overflow: visible;
+    margin-top: 0px;    
+}
+
+.box2{
+     width: 640px;
+    height: 330px;
+    background-color: transparent;
+     position: relative;
+    border: white solid 7px;
+    
+}
